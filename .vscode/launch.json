@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Exer03",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.exercicios.Exer03",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "Exer02",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.exercicios.Exer02",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Exer01",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.exercicios.Exer01",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "TesteFila",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.fila.teste.TesteFila",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "TestePrioridade",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.fila.teste.TestePrioridade",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "TesteQueueJava",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.fila.teste.TesteQueueJava",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "ListaEncadeadaTeste",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.lista.teste.ListaEncadeadaTeste",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "PilhaTeste",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.pilha.teste.PilhaTeste",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "StackJavaTeste",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.pilha.teste.StackJavaTeste",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "TesteArrayList",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.vetor.teste.TesteArrayList",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "TesteVetor",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.vetor.teste.TesteVetor",
+            "projectName": "estruturaDados"
+        },
+        {
+            "type": "java",
+            "name": "TesteVetorEstatico",
+            "request": "launch",
+            "mainClass": "estruturaDados/br.uemg.vetor.teste.TesteVetorEstatico",
+            "projectName": "estruturaDados"
+        }
+    ]
+}

@@ -6,9 +6,9 @@ public class ListaEncadeada<T> {
     private No<T> ultimo;
     private int tamanho;
     
-    private int NAO_ENCOTRADO = -1;
-    private String NAO_EXISTE = "Posição inválida";
-    private String LISTA_VAZIA = "Está lista está vazia";
+    private final int NAO_ENCOTRADO = -1;
+    private final String NAO_EXISTE = "Posição inválida";
+    private final String LISTA_VAZIA = "Está lista está vazia";
 
     public void adiciona(T elemento) {
 

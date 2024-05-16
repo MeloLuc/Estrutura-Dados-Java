@@ -1,13 +1,43 @@
 package br.uemg.lista.teste;
 
+import java.util.LinkedList;
+
 import br.uemg.lista.ListaEncadeada;
 
 public class ListaEncadeadaTeste {
     
     public static void main(String[] args) {
             
-        
+        testeLinkedList();
 
+    }
+
+    public static void testeLinkedList() {
+
+        LinkedList<Integer> lista = new LinkedList<>();
+
+        lista.add(1);
+        lista.addFirst(0);
+        lista.addLast(3);
+        lista.add(2, 2);
+        lista.add(4);
+        lista.add(5);
+
+
+        System.out.println(lista);
+
+        lista.remove(); //remove os primeiro
+        lista.removeFirst();
+        lista.remove(0);
+
+        lista.removeLast();
+
+        System.out.println(lista);
+
+        System.out.println(lista.contains(1));  //false
+        System.out.println(lista.contains(10));  //false
+        System.out.println(lista.contains(3));  //true
+        System.out.println(lista.contains(4));  //true
     }
 
     public static void testeRemoveQualquer() {
